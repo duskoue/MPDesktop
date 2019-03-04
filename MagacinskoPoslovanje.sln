@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.421
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagacinskoPoslovanje", "MagacinskoPoslovanje\MagacinskoPoslovanje.csproj", "{A2D82665-12D0-4B90-9CC5-3BC08D75A9BA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagacinskoPoslovanje", "MagacinskoPoslovanje\MagacinskoPoslovanje.csproj", "{DAA05DAE-6DFA-41BF-9FFE-C1EFDE616326}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A2D82665-12D0-4B90-9CC5-3BC08D75A9BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A2D82665-12D0-4B90-9CC5-3BC08D75A9BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A2D82665-12D0-4B90-9CC5-3BC08D75A9BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A2D82665-12D0-4B90-9CC5-3BC08D75A9BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAA05DAE-6DFA-41BF-9FFE-C1EFDE616326}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAA05DAE-6DFA-41BF-9FFE-C1EFDE616326}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAA05DAE-6DFA-41BF-9FFE-C1EFDE616326}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAA05DAE-6DFA-41BF-9FFE-C1EFDE616326}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {A810C07F-63B8-4EF2-9686-C189FC04C17F}
 	EndGlobalSection
 EndGlobal
