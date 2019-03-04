@@ -25,10 +25,20 @@ namespace MagacinskoPoslovanje
     /// </summary>
     public partial class MainWindow : Window
     {
-        
+        private CGlaniMeni1 cgm;
         public MainWindow()
         {
             InitializeComponent();
+            cgm = new CGlaniMeni1();
+            Menu grafickimeni = new Menu();
+
+            grafickimeni.VerticalAlignment = VerticalAlignment.Top;
+            grafickimeni.HorizontalAlignment = HorizontalAlignment.Stretch;
+            mainGrid.Children.Add(grafickimeni);
+
+            cgm.Napravimeni(grafickimeni);
+
+
             try
             {
                 MpContext mp = new MpContext("InfoContext");
